@@ -42,7 +42,7 @@ Installation instructions for specific platforms are found in the subsequent sec
 You can find a longer, illustrated version of these instructions at: ( https://code.visualstudio.com/docs/cpp/config-mingw#_installing-the-mingww64-toolchain )
 1.  Download and run the latest version of the installer (`msys2-x86_64-\[releasedate\].exe`) with the default options (in the default location--`C:\msys64\`).
 2.	The installer will do a few things and then ask to run MSYS2 when it is done. Make sure it is selected and run MSYS2. (You can also now find “MSYS2 MSYS” in the start menu).
-3.	This brings you to a command prompt. From here just type (or copy/paste!) the line below. This runs the package manager (not what you were thinking?) to download the current MinGWW version. Then hit enter a few times to install the mingw packages.
+3.	This brings you to a command prompt. From here just type (or copy/paste!) the line below. This runs the package manager (not what you were thinking?) to download the current MinGW version. Then hit enter a few times to install the mingw packages.
 ```{bash}
 pacman -S --needed base-devel mingw-w64-x86_64-gcc
 ```
